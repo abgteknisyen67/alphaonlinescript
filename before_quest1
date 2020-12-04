@@ -3,7 +3,7 @@ gg.sleep(3000)
 
 dia = gg.choice("⚠️Scripti açmak istiyor musun?","✅Evet","💥Hayır")
 if dia = nil then
-os.exit
+os.exit()
 end
 
 if dia = 1 then
