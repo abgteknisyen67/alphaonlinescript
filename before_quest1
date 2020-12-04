@@ -1,5 +1,4 @@
 gg.toast("🛡Korumalı Script. Kontrol yapılıyor...")
-gg.sleep(3000)
 
 dia = gg.choice("⚠️Scripti açmak istiyor musun?","✅Evet","💥Hayır")
 if dia = nil then
@@ -8,13 +7,11 @@ end
 
 if dia = 1 then
 gg.toast("🔰Açılıyor...")
-gg.sleep(500)
 alpha = load(gg.makeRequest('https://raw.githubusercontent.com/abgteknisyen67/alphaonlinescript/main/script1').content)
 pcall(alpha)
 end
 
 if = dia 2 then
 gg.toast("📴Kapatılıyor...")
-gg.sleep(1000)
 os.exit()
 end
