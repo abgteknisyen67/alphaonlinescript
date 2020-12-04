@@ -1,6 +1,6 @@
 gg.toast("ℹOnline Script🛡")
 
-cevap = gg.alert("Scripti aÃ§mak iÃ§in internetinizin olmasÄ± gerekli. Devam etmek ister misin?","✅Evet","❎HayÄ±r")
+cevap = gg.alert("ℹScripti açmak için internetinizin olması gerekli. Devam etmek ister misin?🔰","✅Evet","❎Hayır")
 
 if cevap == nil then
 os.exit()
