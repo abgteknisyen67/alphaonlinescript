@@ -1,15 +1,19 @@
 gg.toast("ℹOnline Script🛡")
 
-cevap = gg.alert("ℹScripti açmak için internetinizin olması gerekli. Devam etmek ister misin?🔰","✅Evet","❎Hayır")
+ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
 
-if cevap == nil then
-os.exit()
-end
-if cevap == 1 then
+  if os.date("%Y%m%d") >= "20201210" then gg.alert("SCRİPT SÜRESİ DOLDU") return end
+
+  
+PW = gg.prompt({'🔒 ŞİFRE GİR: '},{[1]=''},{[1]='text'})
+if not PW then return
+end 
+if PW[1] == "" then gg.alert("DOSTUM ŞİFRE BOŞ! 😂") os.exit() end
+if PW[1] =="FEATALPHA"then 
+ gg.toast('PASSWORD CORRECT ✅')
+else 
+ gg.alert("🔐 YANLIŞ ŞİFRE") return end
+gg.alert("【🌹 ALPHA_BRUTAL_SCRİPT_V8_PLUS  🌹】")
 alpha = load(gg.makeRequest('https://raw.githubusercontent.com/abgteknisyen67/alphaonlinescript/main/script1').content)
 pcall(alpha)
-end
-if cevap == 2 then
-gg.toast("ℹScript kapatıldı")
-os.exit()
 end
