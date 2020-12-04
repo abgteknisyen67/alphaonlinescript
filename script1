@@ -1,3 +1,20 @@
+print("👨‍✈️ SCRİPT BY ALPHA_TEAM 👨‍✈️")
+
+ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
+
+  if os.date("%Y%m%d") >= "20201210" then gg.alert("ℹSCRİPT SÜRESİ DOLDU") return end
+
+  
+PW = gg.prompt({'🔒 ŞİFRE GİR: '},{[1]=''},{[1]='text'})
+if not PW then return
+end 
+if PW[1] == "" then gg.alert("DOSTUM ŞİFRE BOŞ! 😂") os.exit() end
+if PW[1] =="FEATALPHA"then 
+ gg.toast('PASSWORD CORRECT ✅')
+else 
+ gg.alert("🔐 YANLIŞ ŞİFRE") return end
+gg.alert("【ℹScript internetten güncellenir. Güncelleme olduğunda kanala bilgi verilir.\n ℹᵗᵉˡᵉᵍʳᵃᵐ: ᵃˡᵖʰᵃᶜᵒᵈᵉᵗʳℹ】")
+
 gg.toast("ℹᵗᵉˡᵉᵍʳᵃᵐ: ᵃˡᵖʰᵃᶜᵒᵈᵉᵗʳℹ")
 
 gg.alert ([[
