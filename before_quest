@@ -10,6 +10,6 @@ alpha = load(gg.makeRequest('https://raw.githubusercontent.com/abgteknisyen67/al
 pcall(alpha)
 end
 if cevap == 2 then
-gg.toast("ℹScript kapatÄ±ldÄ±")
+gg.toast("ℹScript kapatıldı")
 os.exit()
 end
