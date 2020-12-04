@@ -6,7 +6,7 @@ if cevap == nil then
 os.exit()
 end
 if cevap == 1 then
-alpha = load(gg.makeRequest('newlink').content)
+alpha = load(gg.makeRequest('https://raw.githubusercontent.com/abgteknisyen67/alphaonlinescript/main/script1').content)
 pcall(alpha)
 end
 if cevap == 2 then
