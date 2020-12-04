@@ -1,4 +1,4 @@
-print("🛡Korumalı Script. Kontroller AlphaServer tarafından yapılıyor...")
+gg.alert("🛡Korumalı Script. Kontroller AlphaServer tarafından yapılıyor...")
 gg.sleep(3000)
 
 cevap = gg.alert("ℹScripti açmak için onay gerekli. Devam etmek istiyor musun?","✅Evet","💥Hayır")
