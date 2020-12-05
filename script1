@@ -1,7 +1,3 @@
-gg.toast("🛡Online Script...ℹKontroller yapılıyor
-...")
-gg.sleep(10000)
-
 print("👨‍✈️ SCRİPT BY ALPHA_TEAM 👨‍✈️")
 
  while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
