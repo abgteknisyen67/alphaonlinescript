@@ -13,7 +13,7 @@ if PW[1] =="alphapolis"then
  gg.toast('PASSWORD CORRECT ✅')
 else 
  gg.alert("🔐 YANLIŞ ŞİFRE") return end
-gg.alert("【🌹 ALPHA_BRUTAL_SCRİPT_V8_PLUS  🌹】")
+gg.alert("【🌹 ALPHA_BRUTAL_SCRİPT_V9_PLUS  🌹\n ℹInternetten Guncellenir...】")
 
 
 gg.toast("ℹᵗᵉˡᵉᵍʳᵃᵐ: ᵃˡᵖʰᵃᶜᵒᵈᵉᵗʳℹ")
