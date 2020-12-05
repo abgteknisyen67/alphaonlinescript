@@ -88,7 +88,7 @@ if WN[6] == true then LogSil()end -- AlphaCode
 if WN[7] == true then HOME()end -- AlphaCode
 end 
 PUBGMH = -1
-end 
+end --AlphaHack
 
 function Global()
 gg.setVisible(false)
