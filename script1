@@ -1,20 +1,3 @@
-print("👨‍✈️ SCRİPT BY ALPHA_TEAM 👨‍✈️")
-
- while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
-
-  if os.date("%Y%m%d") >= "20201210" then gg.alert("ℹSCRİPT SÜRESİ DOLDU") return end
-
-  
-PW = gg.prompt({'🔒 ŞİFRE GİR: '},{[1]=''},{[1]='text'})
-if not PW then return
-end 
-if PW[1] == "" then gg.alert("DOSTUM ŞİFRE BOŞ! 😂") os.exit() end
-if PW[1] =="FEATALPHA"then 
- gg.toast('PASSWORD CORRECT ✅')
-else 
- gg.alert("🔐 YANLIŞ ŞİFRE") return end
-gg.alert("【ℹScript internetten güncellenir. Güncelleme olduğunda kanala bilgi verilir.\n ℹᵗᵉˡᵉᵍʳᵃᵐ: ᵃˡᵖʰᵃᶜᵒᵈᵉᵗʳℹ】")
-
 gg.toast("ℹᵗᵉˡᵉᵍʳᵃᵐ: ᵃˡᵖʰᵃᶜᵒᵈᵉᵗʳℹ")
 
 gg.alert ([[
@@ -68,12 +51,12 @@ end
 
 function AntibanMenu()
 WN = gg.multiChoice({
-"➣[👨‍✈️] Aɴᴛɪʙᴀɴ\n ℹᵍˡᵒᵇᵃˡ",
-"➣[👮‍♂️] Aɴᴛɪʙᴀɴ\n ℹᵏᵒʳᵉ",
-"➣[🛡] ᴀɴᴛɪʙᴀɴ ᴠ2\n ℹᵏᵒʳᵉ ᵍˡᵒᵇᵃˡ",
-"➣[🔰] ᴋᴜʀʏᴏᴍᴀ ᴠ3\n ℹᵏᵒʳᵉ ᵍˡᵒᵇᵃˡ",
-"➣ [👨‍🔬] Cʀᴀsʜ Fɪx\n ℹᵏᵒʳᵉ ᵍˡᵒᵇᵃˡ",
-"➣ [🖤] Log Temizle\n ℹᵏᵒʳᵉ ᵍˡᵒᵇᵃˡ",
+"➣[👨‍✈️] Aɴᴛɪʙᴀɴ\n ༆ᵍˡᵒᵇᵃˡ",
+"➣[👮‍♂️] Aɴᴛɪʙᴀɴ\n ༆ᵏᵒʳᵉ",
+"➣[🛡] ᴀɴᴛɪʙᴀɴ ᴠ2\n ༆ᵏᵒʳᵉ ᵍˡᵒᵇᵃˡ",
+"➣[🔰] ᴋᴜʀʏᴏᴍᴀ ɪᴄ̧ɪɴ ʙʏᴘᴀss\n ༆ᵏᵒʳᵉ ᵍˡᵒᵇᵃˡ",
+"➣ [👨‍🔬] Cʀᴀsʜ Fɪx\n ༆ᵏᵒʳᵉ ᵍˡᵒᵇᵃˡ",
+"➣ [🖤] Log Temizle\n ༆ᵏᵒʳᵉ ᵍˡᵒᵇᵃˡ",
 "Ⓖ︎Ⓔ︎Ⓡ︎Ⓘ︎",
 }, nil, "📛 ᴀɴᴛɪʙᴀɴ ᴍᴇɴᴜ ɢʟ/ᴋʀ (ʙʀᴜᴛᴀʟ)📛")
 if WN == nil then
@@ -408,7 +391,8 @@ gg.refineNumber("263170", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-      end 
+gg.toast("AlphaHackTR Kore Bypass Aktif şimdi diğerini aktif et")
+ end 
 
 function Party()
 gg.clearResults()
@@ -419,7 +403,7 @@ gg.searchNumber("1668444975;1767992623:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 
 revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.alert("3.Parti Antiban Aktif")
+gg.alert("Crash FİX AKTİF")
 end 
 
 function LogSil()
@@ -842,9 +826,9 @@ end
 
 function WALLHACK()
 UN = gg.choice({
-	"📂 Snapdragon",
-	"📂 Mediatek, Kirin & Exynos",
-	"Ⓖ︎Ⓔ︎Ⓡ︎Ⓘ︎",
+	"📂 𝙎𝙣𝙖𝙥𝙝𝘿𝙧𝙖𝙜𝙤𝙣",
+	"📂 𝗠𝗲𝗱𝗶𝗮𝘁𝗲𝗸,𝗲𝘅𝘆𝗻𝗼𝘀,𝗸𝗶𝗿𝗶𝗻",
+	"🄶🄴🅁🄸 🄱🄰🅂",
 },nil,[[
 ✩｡:*•.─────▄︻̷̿┻̿═━一✩─────.•*:｡✩
 𝗔𝗹𝗽𝗵𝗮𝗛𝗮𝗰𝗸𝗧𝗥 - 𝗺𝘂𝗰𝗼𝘁𝗼𝗼 - @𝗮𝗹𝗽𝗵𝗮_𝗮𝘁𝗮     
@@ -861,1669 +845,726 @@ end --AlphaCode
 
 function WH()
 LBMENU = gg.multiChoice({
-"[🧱] Wall Hack SD ALL ╚» Color",
-"[🧱] Wall Hack SD 625 ╚» Color",
-"[🧱] Wall Hack SD 636 ╚» Color",
-"[🧱] Wall Hack SD 660 ╚» Color",
-"[🧱] Wall Hack SD 665 ╚» Color",
-"[🧱] Wall Hack SD 675 ╚» Color",
-"[🧱] Wall Hack SD 710 ╚» Color",
-"[🧱] Wall Hack SD 712 ╚» Color",
-"[🧱] Wall Hack SD 720 ╚» Color",
-"[🧱] Wall Hack SD 820 ╚» Color",
-"[🧱] Wall Hack SD 835 ╚» Color",
-"[🧱] Wall Hack SD 845 ╚» Color",
-"[🧱] Wall Hack SD 855 ╚» Color",
-"Ⓖ︎Ⓔ︎Ⓡ︎Ⓘ︎",},nil,[[
-✩｡:*•.─────▄︻̷̿┻̿═━一✩─────.•*:｡✩
-𝗔𝗹𝗽𝗵𝗮𝗛𝗮𝗰𝗸𝗧𝗥 - @𝗺𝘂𝗰𝗼𝘁𝗼𝗼 - @𝗮𝗹𝗽𝗵𝗮_𝗮𝘁𝗮     
-✩｡:*•.─────▄︻̷̿┻̿═━一✩─────.•*:｡✩
-]])
-if LBMENU == nil then
+" ❏ Fix Wallhack Blink",
+" ❏ Fix Wallhack Scope",
+" ❏ Wallhack 𝙱𝚞̈𝚝𝚞̈𝚗 𝙲𝚒𝚑𝚊𝚣𝚕𝚊𝚛",
+" ❏ Wallhack SD400",
+" ❏ Wallhack SD410",
+" ❏ Wallhack SD415",
+" ❏ Wallhack SD425",
+" ❏ Wallhack SD430",
+" ❏ Wallhack SD435",
+" ❏ Wallhack SD450",
+" ❏ Wallhack SD615",
+" ❏ Wallhack SD625",
+" ❏ Wallhack SD626",
+" ❏ Wallhack SD636",
+" ❏ Wallhack SD653",
+" ❏ Wallhack SD660",
+" ❏ Wallhack SD665",
+" ❏ Wallhack SD670",
+" ❏ Wallhack SD710",
+" ❏ Wallhack SD800/801",
+" ❏ Wallhack SD820/821",
+" ❏ Wallhack SD835",
+" ❏ Wallhack SD845",
+" ❏ Wallhack SD855",
+" ❏ Wallhack sᴅ 865",
+" ❏ 𝚁𝙴𝙽𝙺 𝙱𝚄̈𝚃𝚄̈𝙽 𝚂𝚄̈𝚁𝚄̈𝙼𝙻𝙴𝚁",
+" ❏ 𝚁𝙴𝙽𝙺 𝙺𝙸𝚁𝙼𝙸𝚉𝙸 HDR",
+" ❏ 𝚁𝙴𝙽𝙺 𝚂𝙰𝚁𝙸 HDR",
+" ❏ 𝚁𝙴𝙽𝙺 𝙼𝙰𝚅𝙸̇ HDR",
+" ❏ 𝚁𝙴𝙽𝙺 𝙿𝙴𝙼𝙱𝙴 HDR",
+" ❏ 𝚁𝙴𝙽𝙺 𝙺𝙸𝚁𝙼𝙸𝚉𝙸",
+" ❏ 𝚁𝙴𝙽𝙺 𝚈𝙴𝚂̧𝙸̇𝙻",
+" ❏ 𝚁𝙴𝙽𝙺 𝙱𝙴𝚈𝙰𝚉",
+" ❏ 𝚁𝙴𝙽𝙺 𝚂𝙰𝚁𝙸",
+" ❏ 𝚁𝙴𝙽𝙺 425 - 660",
+" ❏ 𝚁𝙴𝙽𝙺 665",
+" ❏ 𝚁𝙴𝙽𝙺 710 - 855",
+" ❏ 𝚁𝙴𝙽𝙺 865 𝚂𝙰𝚁𝙸",
+"⌫ 𝑮𝑬𝑹𝑰̇ 𝑩𝑨𝑺"
+}, nil, "Wᴀʟʟʜᴀᴄᴋ sɴᴀᴘᴅʀᴀɢᴏɴ İşʟᴇᴍᴄɪʟᴇʀ")
+if MN1 == nil then
 else
-if LBMENU[1] == true then
-MGALL()
-end 
-if LBMENU[2] == true then
-MG1()
-end 
-if LBMENU[3] == true then
-MG2()
-end 
-if LBMENU[4] == true then
-MG3()
-end 
-if LBMENU[5] == true then
-MG4()
-end 
-if LBMENU[6] == true then
-MG5()
-end 
-if LBMENU[7] == true then
-MG6()
-end 
-if LBMENU[8] == true then
-MG7()
-end 
-if LBMENU[9] == true then
-MG8()
-end 
-if LBMENU[10] == true then
-MG9()
-end 
-if LBMENU[11] == true then
-MG10()
-end 
-if LBMENU[12] == true then
-MG11()
-end 
-if LBMENU[13] == true then
-MG12()
-end 
-if LBMENU[14] == true then
+if MN1[1] == true then
+FBlink()
+end -- Iғ | VinayakYT
+if MN1[2] == true then
+FScope()
+end -- Iғ | VinayakYT
+if MN1[3] == true then
+WHALL()
+end -- Iғ | VinayakYT
+if MN1[4] == true then
+WH400()
+end -- Iғ | VinayakYT
+if MN1[5] == true then
+WH410()
+end -- Iғ | VinayakYT
+if MN1[6] == true then
+WH415()
+end -- Iғ | VinayakYT
+if MN1[7] == true then
+WH425()
+end -- Iғ | VinayakYT
+if MN1[8] == true then
+WH430()
+end -- Iғ | VinayakYT
+if MN1[9] == true then
+WH435()
+end -- Iғ | VinayakYT
+if MN1[10] == true then
+WH450()
+end -- Iғ | VinayakYT
+if MN1[11] == true then
+WH615()
+end -- Iғ | VinayakYT
+if MN1[12] == true then
+WH625()
+end -- Iғ | VinayakYT
+if MN1[13] == true then
+WH626()
+end -- Iғ | VinayakYT
+if MN1[14] == true then
+WH636()
+end -- Iғ | VinayakYT
+if MN1[15] == true then
+WH653()
+end -- Iғ | VinayakYT
+if MN1[16] == true then
+WH660()
+end -- Iғ | VinayakYT
+if MN1[17] == true then
+WH665()
+end -- Iғ | VinayakYT
+if MN1[18] == true then
+WH670()
+end -- Iғ | VinayakYT
+if MN1[19] == true then
+WH710()
+end -- Iғ | VinayakYT
+if MN1[20] == true then
+WH800()
+end -- Iғ | VinayakYT
+if MN1[21] == true then
+WH820()
+end -- Iғ | VinayakYT
+if MN1[22] == true then
+WH835()
+end -- Iғ | VinayakYT
+if MN1[23] == true then
+WH845()
+end -- Iғ | VinayakYT
+if MN1[24] == true then
+WH855()
+end -- Iғ | VinayakYT
+if MN1[25] == true then
+WHSNAP()
+end -- Iғ | VinayakYT
+if MN1[26] == true then
+CALL()
+end -- Iғ | VinayakYT
+if MN1[27] == true then
+REDHDR()
+end -- Iғ | VinayakYT
+if MN1[28] == true then
+YELLOWHDR()
+end -- Iғ | VinayakYT
+if MN1[29] == true then
+BLUEHDR()
+end -- Iғ | VinayakYT
+if MN1[30] == true then
+PURPLEHDR()
+end -- Iғ | VinayakYT
+if MN1[31] == true then
+CLRRED()
+end -- Iғ | VinayakYT
+if MN1[32] == true then
+colgren()
+end -- Iғ | VinayakYT
+if MN1[33] == true then
+CLRBL()
+end -- Iғ | VinayakYT
+if MN1[34] == true then
+colkun()
+end -- Iғ | VinayakYT
+if MN1[35] == true then
+col2()
+end -- Iғ | VinayakYT
+if MN1[36] == true then
+col3()
+end -- Iғ | VinayakYT
+if MN1[37] == true then
+col4()
+end -- Iғ | VinayakYT
+if MN1[38] == true then
+col865()
+end -- Iғ | VinayakYT
+if MN1[39] == true then
 HOME()
-end 
+end -- Iғ | VinayakYT
+end -- VinayakYT
 PUBGMH = -1
-end 
-end 
+end -- VinayakYT
 
-function MGALL()
-ALD = gg.multiChoice({
-"[🧱] Wall Hack All Color ╚» Low",
-"[🧱] Wall Hack All Color╚» Medium",
-"[🧱] Wall Hack All Color ╚» High",
-"[🧱] Green Body ╚» Color",
-"[🧱] Red Body ╚» Color",
-"[🧱] Yellow Body ╚» Color",
-"Ⓖ︎Ⓔ︎Ⓡ︎Ⓘ︎",},nil,[[
-✩｡:*•.─────▄︻̷̿┻̿═━一✩─────.•*:｡✩
-𝗔𝗹𝗽𝗵𝗮𝗛𝗮𝗰𝗸𝗧𝗥 - @𝗠𝘂𝗰𝗼𝘁𝗼𝗼 - @𝗮𝗹𝗽𝗵𝗮_𝗮𝘁𝗮     
-✩｡:*•.─────▄︻̷̿┻̿═━一✩─────.•*:｡✩
-]])
-if ALD == nil then
-else
-if ALD[1] == true then
-ALD1()
-end 
-if ALD[2] == true then
-ALD2()
-end 
-if ALD[3] == true then
-ALD3()
-end 
-if ALD[4] == true then
-ALD4()
-end 
-if ALD[5] == true then
-ALD5()
-end 
-if ALD[6] == true then
-ALD6()
-end 
-if ALD[7] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
-
-function ALD1()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("2;1.8947657e-40;5.8013756e-42", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2.718519e-43;3.7615819e-37;2;-1;1;-127", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0B0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Whall Hack Low")
-end 
-
-function ALD2()
-gg.clearResults()
+function WHALL()
+gg["clearResults"]()
 if gg.REGION_VIDEO == nil then
-VB = gg.REGION_BAD
+VB = gg["REGION_BAD"]
 else
 VB = gg.REGION_VIDEO
-end 
-gg.setRanges(VB)
-gg.searchNumber("-2147086191", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("4C8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("1168777216", gg.TYPE_DWORD)
-gg.clearResults()
+end -- VinayakYT
+gg["setRanges"](VB)
+gg.searchNumber("9.7646681e-41;5.0544084e21;2.0:9", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](100)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
 if gg.REGION_VIDEO == nil then
-VB = gg.REGION_BAD
+VB = gg["REGION_BAD"]
 else
 VB = gg.REGION_VIDEO
-end 
-gg.setRanges(VB)
-gg.searchNumber("-2145644352", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("7E0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("1168777216", gg.TYPE_DWORD)
-gg.clearResults()
-if gg.REGION_VIDEO == nil then
-VB = gg.REGION_BAD
-else
-VB = gg.REGION_VIDEO
-end 
-gg.setRanges(VB)
-gg.searchNumber("7,41529732e-29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-if gg.REGION_VIDEO == nil then
-VB = gg.REGION_BAD
-else
-VB = gg.REGION_VIDEO
-end 
-gg.setRanges(VB)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0B0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Whall Hack Medium")
-end 
+end -- VinayakYT
+gg["setRanges"](VB)
+gg.searchNumber("1.1202051e-19;3.7615819e-37;2.0:85", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](100)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"]("Wh 865 +")
+gg["clearResults"]()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("8,200;277872647;1080039936:13", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("8200", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("6", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("YELLOW AKTIF")
+end -- VinayakYT
 
-function ALD3()
-gg.clearResults()
-if gg.REGION_VIDEO == nil then
-VB = gg.REGION_BAD
-else
-VB = gg.REGION_VIDEO
-end 
-gg.setRanges(VB)
-gg.searchNumber("-2145644340", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("7E0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("1168777216", gg.TYPE_DWORD)
-gg.clearResults()
-if gg.REGION_VIDEO == nil then
-VB = gg.REGION_BAD
-else
-VB = gg.REGION_VIDEO
-end 
-gg.setRanges(VB)
-gg.searchNumber("-2147483636", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("4F8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("1168777216", gg.TYPE_DWORD)
-gg.clearResults()
-if gg.REGION_VIDEO == nil then
-VB = gg.REGION_BAD
-else
-VB = gg.REGION_VIDEO
-end 
-gg.setRanges(VB)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0B8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("8199", gg.TYPE_DWORD)
-gg.clearResults()
-if gg.REGION_VIDEO == nil then
-VB = gg.REGION_BAD
-else
-VB = gg.REGION_VIDEO
-end 
-gg.setRanges(VB)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("120", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("8199", gg.TYPE_DWORD)
-gg.clearResults()
-if gg.REGION_VIDEO == nil then
-VB = gg.REGION_BAD
-else
-VB = gg.REGION_VIDEO
-end 
-gg.setRanges(VB)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("128", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("8200", gg.TYPE_DWORD)
-gg.clearResults()
-if gg.REGION_VIDEO == nil then
-VB = gg.REGION_BAD
-else
-VB = gg.REGION_VIDEO
-end 
-gg.setRanges(VB)
-gg.searchNumber("1 078 984 714", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-KARARWALL3 = gg.getResults(100)
-gg.editAll("-1", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Whall Hack High")
-end 
+function col865()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("8,200;277872647;1080039936:13", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("8200", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("6", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("YELLOW AKTIF")
+end -- VinayakYT
 
-function ALD4()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("1077937166;1661534257;-2134900736:2769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1077937166;1661534257;-2134900736:2769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2805)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8200;1194380088;289673539:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2805)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Green Color")
-end 
+function colgren()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("537133071;8200;1194380048:9", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("8200", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("0E8", -1, gg["TYPE_DWORD"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("12", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("GREEN AKTIF")
+end -- VinayakYT
 
-function ALD5()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8,196D;8,192D;8,200D::", 4, false, 536870912, 0, -1)
-gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("7", 4)
-gg.clearResults()
-gg.toast("Red Color")
-end 
+function colkun()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("537133071;8200;1194380048:9", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("8200", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("0E8", -1, gg["TYPE_DWORD"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("6", gg["TYPE_DWORD"])
+gg["toast"]("KUNING AKTIF")
+end -- VinayakYT
 
-function ALD6()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Yellow Color")
-end 
+function CLRBL()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("537133071;8200;1194380048:9", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("8200", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("0E8", -1, gg["TYPE_DWORD"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("3", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("Blue aktif")
+end -- VinayakYT
 
-function MG1()
-SD625 = gg.multiChoice({
-"[🧱] Wall Hack SD 625 ╚» White",
-"[🧱] Wall Hack SD 625 ╚» Red",
-"[🧱] Wall Hack SD 625 ╚» Yellow",
-"Ⓖ︎Ⓔ︎Ⓡ︎Ⓘ︎",}, nil, "")
-if SD625 == nil then
-else
-if SD625[1] == true then
-SD6()
-end 
-if SD625[2] == true then
-SD7()
-end 
-if SD625[3] == true then
-SD8()
-end 
-if SD625[4] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
+function CLRRED()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("537133071;8200;1194380048:9", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("8200", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("0E8", -1, gg["TYPE_DWORD"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("6", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("RED AKTIF")
+end -- VinayakYT
 
-function SD6()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(10)
---[[ count: 10 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(10)
---[[ count: 10 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 625")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 9 ]]
-gg.refineNumber("8,200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 9 ]]
-gg.refineAddress("0B0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.refineNumber("8,200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.getResults(1401)
---[[ count: 0 ]]
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Renk SD 625 Yeşil")
-end 
+function PURPLEHDR()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_BAD"])
+gg["searchNumber"]("8,196D; 256D; 8,204D; 256D; 8,200D", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["searchNumber"]("8,200", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](12)
+gg["editAll"]("16", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("Colour Purple HDR activated!")
+end -- VinayakYT
 
-function SD7()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(10)
---[[ count: 10 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(10)
---[[ count: 10 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 625")
-gg.clearResults()
-gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 9 ]]
-gg.getResults(10)
---[[ count: 9 ]]
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Renk SD 625 Kirmizi")
-end 
+function BLUEHDR()
+gg["setRanges"](gg["REGION_BAD"])
+gg["clearResults"]()
+gg["searchNumber"]("1,661,337,615D;8,200D;1,194,380,049D:9", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["searchNumber"]("8200", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](30)
+gg["editAll"]("66", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("Colour Blue HDR activated!")
+end -- VinayakYT
 
-function SD8()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(10)
---[[ count: 10 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(10)
---[[ count: 10 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 625")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("256D;8,200D;13D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.getResultsCount()
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 9 ]]
-gg.getResults(20)
---[[ count: 9 ]]
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.toast("Renk SD 625 Sarı")
-end 
+function YELLOWHDR()
+gg["setRanges"](gg["REGION_BAD"])
+gg["searchNumber"]("856128", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](4)
+gg["editAll"]("856140", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["searchNumber"]("196610;1280;196608:25", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["searchNumber"]("196608", gg["TYPE_DWORD"], false)
+gg["getResults"](10)
+gg["editAll"]("9999", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("Colour Yellow HDR activated!")
+end -- VinayakYT
 
-function MG2()
-SD636 = gg.multiChoice({
-"[🧱] Wall Hack SD 636 ╚» White",
-"[🧱] Wall Hack SD 636 ╚» Red",
-"[🧱] Wall Hack SD 636 ╚» Yellow",
-"🅶︎🅴︎🆁︎🅸︎"}, nil, "")
-if SD636 == nil then
-else
-if SD636[1] == true then
-SD9()
-end 
-if SD636[2] == true then
-SD10()
-end 
-if SD636[3] == true then
-SD11()
-end 
-if SD636[4] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
+function REDHDR()
+gg["clearResults"]()
+gg["searchNumber"]("8,196D;8,192D;8,200D::", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["searchNumber"]("8200", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](10)
+gg["editAll"]("7", gg["TYPE_DWORD"])
+gg["toast"]("Colour Red HDR activated!")
+end -- VinayakYT
 
-function SD9()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;-127.0F::520", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(20)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD 636")
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8,196D;8,192D;8,200D::", 4, false, 536870912, 0, -1)
-gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("5", 4)
-gg.clearResults()
-gg.toast("Color SD 636 White")
-end 
+function CALL()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_BAD"])
+gg["searchNumber"]("8200;96", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["searchNumber"]("8200", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](100)
+gg["editAll"]("8202", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"](" Blue & Green Body Color activated")
+end -- VinayakYT
 
-function SD10()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;-127.0F::520", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(20)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD 636")
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8,196D;8,192D;8,200D::", 4, false, 536870912, 0, -1)
-gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("7", 4)
-gg.clearResults()
-gg.toast("Color SD 636 Red")
-end 
+function WHSNAP()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("200", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("9B0", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"](" Wallhack all activated")
+end -- VinayakYT
 
-function SD11()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;-127.0F::520", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(20)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD 636")
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8,196D;8,192D;8,200D::", 4, false, 536870912, 0, -1)
-gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("6", 4)
-gg.clearResults()
-gg.toast("Color SD 636 Yellow")
-end 
+function WH665()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("200", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("9B0", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"](" Wallhack SD665activated")
+end -- VinayakYT
 
-function MG3()
-SD660 = gg.multiChoice({
-"[🧱] Wall Hack SD 660 ╚» Green",
-"[🧱] Wall Hack SD 660 ╚» Red",
-"[🧱] Wall Hack SD 660 ╚» Yellow",
-"🅶︎🅴︎🆁︎🅸︎"}, nil, "")
-if SD660 == nil then
-else
-if SD660[1] == true then
-SD12()
-end 
-if SD660[2] == true then
-SD13()
-end 
-if SD660[3] == true then
-SD14()
-end 
-if SD660[4] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
+function WH855()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("200", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("9B0", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"](" Wallhack SD855activated")
+end -- VinayakYT
 
-function SD12()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(30)
---[[ count: 30 ]]
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(30)
---[[ count: 30 ]]
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 660")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 9 ]]
-gg.refineNumber("8,200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 9 ]]
-gg.refineAddress("0B0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.refineNumber("8,200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.getResults(1401)
---[[ count: 0 ]]
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Renk SD 660 Yeşil")
-end 
+function WH845()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("200", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("9B0", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"](" Wallhack SD845 activated")
+end -- VinayakYT
 
-function SD13()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(30)
---[[ count: 30 ]]
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(30)
---[[ count: 30 ]]
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 660")
-gg.clearResults()
-gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 9 ]]
-gg.getResults(10)
---[[ count: 9 ]]
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Renk SD 660 Kirmizi")
-end 
+function WH835()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("1.8948778e-40;4.7408166e21;2.0:93", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["processResume"]()
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("504", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("3.37670946121;3.37548875809;2.0:149", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("980", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD835 activated!")
+end -- VinayakYT
 
-function SD14()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(30)
---[[ count: 30 ]]
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(30)
---[[ count: 30 ]]
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 660")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("256D;8,200D;13D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.getResultsCount()
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 9 ]]
-gg.getResults(20)
---[[ count: 9 ]]
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.toast("Renk SD 660 Sarı")
-end 
+function WH820()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("200", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("9B0", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"](" Wallhack SD 820 activated")
+end -- VinayakYT
 
-function MG4()
-SD665 = gg.multiChoice({
-"[🧱] Wall Hack SD 665 ╚» Green",
-"[🧱] Wall Hack SD 665 ╚» Red",
-"[🧱] Wall Hack SD 665 ╚» Yellow",
-"🅶︎🅴︎🆁︎🅸︎"}, nil, "")
-if SD665 == nil then
-else
-if SD665[1] == true then
-SD15()
-end 
-if SD665[2] == true then
-SD16()
-end 
-if SD665[3] == true then
-SD17()
-end 
-if SD665[6] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
+function WH800()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("200", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("9B0", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"](" Wallhack SD800activated")
+end -- VinayakYT
 
-function SD15()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 845")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 665 Green")
-end 
+function WH710()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("200", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("9B0", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"](" Wallhack SD710 activated")
+end -- VinayakYT
 
-function SD16()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("6.03209094e21", 16, false, 536870912, 0, -1)
-gg.getResults(6281913639784)
-gg.editAll("0", 16)
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("-2.57741948e-39", 16, false, 536870912, 0, -1)
-gg.getResults(6281913639784)
-gg.editAll("0", 16)
-gg.clearResults()
-gg.toast("Wallhack SD 665")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("5", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 665 Red")
-end 
+function WH670()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("1.8948778e-40;4.7408166e21;2.0:93", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["processResume"]()
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("504", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("3.37670946121;3.37548875809;2.0:149", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("980", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD670 activated!")
+end -- VinayakYT
 
-function SD17()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("6.03209094e21", 16, false, 536870912, 0, -1)
-gg.getResults(6281913639784)
-gg.editAll("0", 16)
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("-2.57741948e-39", 16, false, 536870912, 0, -1)
-gg.getResults(6281913639784)
-gg.editAll("0", 16)
-gg.clearResults()
-gg.toast("Wallhack SD 665")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 665 Yellow")
-end 
+function WH660()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("1.8948778e-40;4.7408166e21;2.0:93", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["processResume"]()
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("504", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("3.37670946121;3.37548875809;2.0:149", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("980", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD660 activated!")
+end -- VinayakYT
 
-function MG5()
-SD675 = gg.multiChoice({
-"[🧱] Wall Hack SD 675 ╚» Green",
-"[🧱] Wall Hack SD 675 ╚» Red",
-"[🧱] Wall Hack SD 675 ╚» Yellow",
-"🅶︎🅴︎🆁︎🅸︎"}, nil, "")
-if SD675 == nil then
-else
-if SD675[1] == true then
-SD18()
-end 
-if SD675[2] == true then
-SD19()
-end 
-if SD675[3] == true then
-SD20()
-end 
-if SD675[4] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
+function WH636()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("1.8948778e-40;4.7408166e21;2.0:93", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["processResume"]()
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("504", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("3.37670946121;3.37548875809;2.0:149", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("980", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD636 activated!")
+end -- VinayakYT
 
-function SD18()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 845")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 675 Green")
-end 
+function WH653()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("1.8948778e-40;4.7408166e21;2.0:93", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["processResume"]()
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("504", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("3.37670946121;3.37548875809;2.0:149", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("980", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD653 activated!")
+end -- VinayakYT
 
-function SD19()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("-2 145 644 340", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("7E0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("1 168 777 216", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("-2 147 483 636", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("4F8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("1 168 777 216", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Wallhack SD 675")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0B0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("5", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 675 Red")
-end 
+function WH626()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("1.8948778e-40;4.7408166e21;2.0:93", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["processResume"]()
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("504", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("3.37670946121;3.37548875809;2.0:149", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("980", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD626 activated!")
+end -- VinayakYT
 
-function SD20()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("-2 145 644 340", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("7E0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("1 168 777 216", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("-2 147 483 636", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("4F8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("1 168 777 216", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Wallhack SD 675")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0B0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 675 Yellow")
-end 
+function WH625()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("1.8948778e-40;4.7408166e21;2.0:93", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["processResume"]()
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("504", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("3.37670946121;3.37548875809;2.0:149", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("980", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD625 activated!")
+end -- VinayakYT
 
-function MG6()
-SD710 = gg.multiChoice({
-"[🧱] Wall Hack SD 710 ╚» Green",
-"[🧱] Wall Hack SD 710 ╚» Red",
-"[🧱] Wall Hack SD 710 ╚» Yellow",
-"🅶︎🅴︎🆁︎🅸︎"}, nil, "")
-if SD710 == nil then
-else
-if SD710[1] == true then
-SD21()
-end 
-if SD710[2] == true then
-SD22()
-end 
-if SD710[3] == true then
-SD23()
-end 
-if SD710[4] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
+function WH615()
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("1.8948778e-40;4.7408166e21;2.0:93", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["processResume"]()
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("504", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["setRanges"](gg.REGION_VIDEO or gg["REGION_BAD"])
+gg.searchNumber("3.37670946121;3.37548875809;2.0:149", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineNumber"]("2.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["refineAddress"]("980", -1, gg["TYPE_FLOAT"], gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](63825)
+gg["editAll"]("130", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD615activated!")
+end -- VinayakYT
 
-function SD21()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("274,677,779D;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(20)
---[[ count: 20 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("218D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(10)
---[[ count: 10 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(15)
---[[ count: 15 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("206D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(10)
---[[ count: 10 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.toast("Wallhack SD 710")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.refineNumber("8,200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.refineAddress("0B0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.refineNumber("8,200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.getResults(1401)
---[[ count: 0 ]]
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Renk SD 710 Yeşil")
-end 
+function WH450()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_C_ALLOC"])
+gg.searchNumber("228;1,073,741,824;1,073,741,824;-1,082,130,432;1,073,741,824:49", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg.searchNumber("1,073,741,824", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](100)
+gg["editAll"]("1,123,024,896", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD450 activated!")
+end -- VinayakYT
 
-function SD22()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("274,677,779D;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(20)
---[[ count: 20 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("218D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(10)
---[[ count: 10 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(15)
---[[ count: 15 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("206D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(10)
---[[ count: 10 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.toast("Wallhack SD 710")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.clearResults()
-gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 9 ]]
-gg.getResults(10)
---[[ count: 9 ]]
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Renk SD 710 Kirmizi")
-end 
+function WH435()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_C_ALLOC"])
+gg.searchNumber("228;1,073,741,824;1,073,741,824;-1,082,130,432;1,073,741,824:49", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg.searchNumber("1,073,741,824", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](100)
+gg["editAll"]("1,123,024,896", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD450 activated!")
+end -- VinayakYT
 
-function SD23()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("274,677,779D;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(20)
---[[ count: 20 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("218D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(10)
---[[ count: 10 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(15)
---[[ count: 15 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("206D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 161 ]]
-gg.getResults(10)
---[[ count: 10 ]]
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.toast("Wallhack SD 710")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("256D;8,200D;13D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.getResultsCount()
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 9 ]]
-gg.getResults(20)
---[[ count: 9 ]]
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.toast("Renk SD 710 Sarı")
-end 
+function WH430()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_C_ALLOC"])
+gg.searchNumber("228;1,073,741,824;1,073,741,824;-1,082,130,432;1,073,741,824:49", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg.searchNumber("1,073,741,824", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](100)
+gg["editAll"]("1,123,024,896", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD450 activated!")
+end -- VinayakYT
 
-function MG7()
-SD712 = gg.multiChoice({
-"[🧱] Wall Hack SD 712 ╚» Green",
-"[🧱] Wall Hack SD 712 ╚» Red",
-"[🧱] Wall Hack SD 712 ╚» Yellow",
-"🅶︎🅴︎🆁︎🅸︎"}, nil, "")
-if SD712 == nil then
-else
-if SD712[1] == true then
-SD24()
-end 
-if SD712[2] == true then
-SD25()
-end 
-if SD712[3] == true then
-SD26()
-end 
-if SD712[4] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
+function WH425()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_C_ALLOC"])
+gg.searchNumber("228;1,073,741,824;1,073,741,824;-1,082,130,432;1,073,741,824:49", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg.searchNumber("1,073,741,824", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](100)
+gg["editAll"]("1,123,024,896", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD450 activated!")
+end -- VinayakYT
 
-function SD24()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 845")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 712 Green")
-end 
+function WH415()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_C_ALLOC"])
+gg.searchNumber("228;1,073,741,824;1,073,741,824;-1,082,130,432;1,073,741,824:49", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg.searchNumber("1,073,741,824", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](100)
+gg["editAll"]("1,123,024,896", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD450 activated!")
+end -- VinayakYT
 
-function SD25()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", 16, false, 536870912, 0, -1)
-gg.refineNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(999)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", 16, false, 536870912, 0, -1)
-gg.refineNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(999)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD 712")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("5", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 712 Red")
-end 
+function WH410()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_C_ALLOC"])
+gg.searchNumber("228;1,073,741,824;1,073,741,824;-1,082,130,432;1,073,741,824:49", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg.searchNumber("1,073,741,824", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](100)
+gg["editAll"]("1,123,024,896", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD450 activated!")
+end -- VinayakYT
 
-function SD26()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", 16, false, 536870912, 0, -1)
-gg.refineNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(999)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", 16, false, 536870912, 0, -1)
-gg.refineNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(999)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD 712")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 712 Yellow")
-end 
+function WH400()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_C_ALLOC"])
+gg.searchNumber("228;1,073,741,824;1,073,741,824;-1,082,130,432;1,073,741,824:49", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg.searchNumber("1,073,741,824", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](100)
+gg["editAll"]("1,123,024,896", gg["TYPE_DWORD"])
+gg["clearResults"]()
+gg["toast"]("Wallhack SD450 activated!")
+end -- VinayakYT
 
-function MG8()
-SD845 = gg.multiChoice({
-"[🧱] Wall Hack SD 720 ╚» Green",
-"[🧱] Wall Hack SD 720 ╚» Red",
-"[🧱] Wall Hack SD 720 ╚» Yellow",
-"🅶︎🅴︎🆁︎🅸︎"}, nil, "")
-if SD720 == nil then
-else
-if SD720[1] == true then
-SD27()
-end 
-if SD720[2] == true then
-SD28()
-end 
-if SD720[3] == true then
-SD29()
-end 
-if SD720[4] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
+function FScope()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_VIDEO"] or gg["REGION_BAD"])
+gg["searchNumber"]("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["searchNumber"](2, gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](3)
+gg["editAll"]("2.001", gg["TYPE_FLOAT"])
+gg["searchNumber"](2, gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](10)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["setRanges"](gg["REGION_BAD"])
+gg["searchNumber"]("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["searchNumber"]("2", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](3)
+gg["editAll"]("2.001", gg["TYPE_FLOAT"])
+gg["searchNumber"]("2", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](10)
+gg["editAll"]("120", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"]("Fix Wallhack Scope activated!")
+end -- VinayakYT
 
-function SD27()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 845")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 720 Green")
-end 
-
-function SD28()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 720")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("5", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 720 Red")
-end 
-
-function SD29()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 720")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 720 Yellow")
-end 
-
-function MG9()
-SD820 = gg.multiChoice({
-"[🧱] Wall Hack ╚» Green",
-"[🧱] Wall Hack ╚» Red",
-"[🧱] Wall Hack ╚» Yellow",
-"🅶︎🅴︎🆁︎🅸︎"}, nil, "")
-if SD820 == nil then
-else
-if SD820[1] == true then
-SD30()
-end 
-if SD820[2] == true then
-SD31()
-end 
-if SD820[3] == true then
-SD32()
-end 
-if SD820[4] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
-
-function SD30()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 845")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 820 Green")
-end 
-
-function SD31()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("2;1.8947657e-40;5.8013756e-42", 16, false, 536870912, 0, -1)
-gg.refineNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("2.718519e-43;3.7615819e-37;2;-1;1;-127", 16, false, 536870912, 0, -1)
-gg.refineNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD 820")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("5", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 820 Red")
-end 
-
-function SD32()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("2;1.8947657e-40;5.8013756e-42", 16, false, 536870912, 0, -1)
-gg.refineNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("2.718519e-43;3.7615819e-37;2;-1;1;-127", 16, false, 536870912, 0, -1)
-gg.refineNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD 820")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 820 Yellow")
-end 
-
-function MG10()
-SD835 = gg.multiChoice({
-"[🧱] Wall Hack SD 835 ╚» Green",
-"[🧱] Wall Hack SD 835 ╚» Red",
-"[🧱] Wall Hack SD 835 ╚» Yellow",
-"🅶︎🅴︎🆁︎🅸︎"}, nil, "")
-if SD835 == nil then
-else
-if SD835[1] == true then
-SD33()
-end 
-if SD835[2] == true then
-SD34()
-end 
-if SD835[3] == true then
-SD35()
-end 
-if SD835[4] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
-
-function SD33()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 845")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 835 Green")
-end 
-
-function SD34()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
-gg.searchNumber(2, 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
-gg.searchNumber(2, 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("7.1746481e-43;1.0842022e-19;94.015625;7.0776718e-15;2::", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(5)
-gg.editAll("9999", 16)
-gg.toast("Wallhack SD 835")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("5", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 835 Red")
-end 
-
-function SD35()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
-gg.searchNumber(2, 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
-gg.searchNumber(2, 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("7.1746481e-43;1.0842022e-19;94.015625;7.0776718e-15;2::", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(5)
-gg.editAll("9999", 16)
-gg.toast("Wallhack SD 835")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 835 Yellow")
-end 
-
-function MG11()
-SD845 = gg.multiChoice({
-"[🧱] Wall Hack SD 845 ╚» Green",
-"[🧱] Wall Hack SD 845 ╚» Red",
-"[🧱] Wall Hack SD 845 ╚» Yellow",
-"🅶︎🅴︎🆁︎🅸︎"}, nil, "")
-if SD845 == nil then
-else
-if SD845[1] == true then
-SD36()
-end 
-if SD845[2] == true then
-SD37()
-end 
-if SD845[3] == true then
-SD38()
-end 
-if SD845[4] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
-
-function SD36()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 845")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 845 Green")
-end 
-
-function SD37()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 845")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 845 Red")
-end 
-
-function SD38()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 845")
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 845 Yellow")
-end 
-
-function MG12()
-SD855 = gg.multiChoice({
-"[🧱] Wall Hack SD 855 ╚» Red",
-"[🧱] Wall Hack SD 855 ╚» White",
-"[🧱] Wall Hack SD 855 ╚» Yellow",
-"🅶︎🅴︎🆁︎🅸︎"}, nil, "")
-if SD855 == nil then
-else
-if SD855[1] == true then
-SD39()
-end 
-if SD855[2] == true then
-SD40()
-end 
-if SD855[3] == true then
-SD41()
-end 
-if SD855[4] == true then
-HOME()
-end 
-PUBGMH = -1
-end 
-end 
-
-function SD39()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT)
---[[ found: 0 ]]
-gg.refineNumber("2", gg.TYPE_FLOAT)
---[[ found: 0 ]]
-gg.getResults(100)
---[[ count: 0 ]]
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT)
---[[ found: 0 ]]
-gg.refineNumber("2", gg.TYPE_FLOAT)
---[[ found: 0 ]]
-gg.getResults(100)
---[[ count: 0 ]]
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 855")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 9 ]]
-gg.refineAddress("328", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
---[[ count: 0 ]]
-gg.editAll("6", gg.TYPE_DWORD)
-gg.toast("Renk SD 855 Kirmizi")
-end 
-
-function SD40()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT)
---[[ found: 0 ]]
-gg.refineNumber("2", gg.TYPE_FLOAT)
---[[ found: 0 ]]
-gg.getResults(100)
---[[ count: 0 ]]
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT)
---[[ found: 0 ]]
-gg.refineNumber("2", gg.TYPE_FLOAT)
---[[ found: 0 ]]
-gg.getResults(100)
---[[ count: 0 ]]
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 855")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 1 ]]
-gg.refineAddress("0A0")
---[[ found: 0 ]]
-gg.getResults(10)
---[[ count: 0 ]]
-gg.editAll("8197", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Renk SD 855 Beyaz")
-end 
-
-function SD41()
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41::100", gg.TYPE_FLOAT)
---[[ found: 0 ]]
-gg.refineNumber("2", gg.TYPE_FLOAT)
---[[ found: 0 ]]
-gg.getResults(100)
---[[ count: 0 ]]
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", gg.TYPE_FLOAT)
---[[ found: 0 ]]
-gg.refineNumber("2", gg.TYPE_FLOAT)
---[[ found: 0 ]]
-gg.getResults(100)
---[[ count: 0 ]]
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 855")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 9 ]]
-gg.refineAddress("2A0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
---[[ count: 0 ]]
-gg.editAll("1", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
---[[ found: 1 ]]
-gg.refineAddress("2A8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
---[[ found: 0 ]]
-gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
---[[ count: 0 ]]
-gg.editAll("1", gg.TYPE_DWORD)
-gg.toast("Renk SD 855 Sarı")
-end 
+function FBlink()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_VIDEO"] or gg["REGION_BAD"])
+gg["searchNumber"]("5.2806111e-40;6.50000333786;3.7615819e-37;2", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["searchNumber"]("2", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](20)
+gg["editAll"]("9999", gg["TYPE_FLOAT"])
+gg["setRanges"](gg["REGION_BAD"])
+gg["searchNumber"]("1.1202011e-19;1.1202015e-19;3.7615819e-37;255.0;2", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["searchNumber"]("2", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](20)
+gg["editAll"]("9999", gg["TYPE_FLOAT"])
+gg["clearResults"]()
+gg["toast"]("Fix Wallhack Blink activated!")
+end -- VinayakYT
 
 function WH2()
 XYZFAN9 = gg.multiChoice({
@@ -3100,18 +2141,17 @@ gg.clearResults()
 
 function HileMenu()
 DN = gg.multiChoice({
- "╠══➣ [🛑] Sᴇᴋᴍᴇᴍᴇ %100\nˡᵒᵇⁱ",
- "╠══➣ [🔥] Sᴇᴋᴍᴇᴍᴇ %79\nˡᵒᵇⁱ",
- "╠══➣ [👻] Dᴜᴠᴀʀ ᴀʀᴋᴀsɪ ᴠᴜʀ\nᵒʸᵘⁿ",
- "╠══➣ [🔫] Sɪʜɪʀʟɪ Mᴇʀᴍɪʟᴇʀ\nˡᵒᵇⁱ",
- "╠══➣ [⚙️] Fɪx ɴᴏ ᴅᴀᴍᴀɢᴇ\nᵒʸᵘⁿ",
- "╠══➣ [🎯] Aɪᴍʙᴏᴛ\nᵒʸᵘⁿ",
- "╠══➣ [🎯] Aɪᴍʟᴏᴄᴋ\nᵒʸᵘⁿ",
- "╠══➣ [🕛] İʟᴇʀɪ ᴢɪᴘʟᴀ ʜɪᴢʟɪ\nᵒʸᵘⁿ",
- "╠══➣ [💥] Kᴀғᴀᴅᴀɴ Vᴜʀ\nˡᵒᵇⁱ",
- "╠══➣ [➕] Cʀᴏssʜᴀɪʀ\nᵒʸᵘⁿ",
- "╠══➣ [👑] Aᴡᴍ Nᴏ Şᴀʀᴊᴏʀ\nᵒʸᵘⁿ",
- "╠══➣ [👑] Kᴀʀ98 Nᴏ Şᴀʀᴊᴏʀ\nᵒʸᵘⁿ",
+ "╠═➣ [🛑] Sᴇᴋᴍᴇᴍᴇ %100\nˡᵒᵇⁱ",
+ "╠═➣ [🔥] Sᴇᴋᴍᴇᴍᴇ %80\nˡᵒᵇⁱ",
+ "╠═➣ [👻] Dᴜᴠᴀʀ ᴀʀᴋᴀsɪ ᴠᴜʀ\nᵒʸᵘⁿ",
+ "╠═➣ [🔫] Sɪʜɪʀʟɪ Mᴇʀᴍɪʟᴇʀ\nˡᵒᵇⁱ",
+ "╠═➣ [⚙️] Fɪx ɴᴏ ᴅᴀᴍᴀɢᴇ\nᵒʸᵘⁿ",
+ "╠═➣ [🎯] Aɪᴍʙᴏᴛ\nᵒʸᵘⁿ",
+ "╠═➣ [🕛] Çɪᴍʟᴇʀɪ Kᴀʟᴅɪʀ\nᵒʸᵘⁿ",
+ "╠═➣ [💥] Kᴀғᴀᴅᴀɴ Vᴜʀ\nˡᵒᵇⁱ",
+ "╠═➣ [➕] Cʀᴏssʜᴀɪʀ\nᵒʸᵘⁿ",
+ "╠═➣ [👑] Aᴡᴍ Nᴏ Şᴀʀᴊᴏʀ\nᵒʸᵘⁿ",
+ "╠═➣ [👑] Kᴀʀ98 Nᴏ Şᴀʀᴊᴏʀ\nᵒʸᵘⁿ",
  "Ⓖ︎Ⓔ︎Ⓡ︎Ⓘ︎",
 },nil,[[
 ✩｡:*•.─────▄︻̷̿┻̿═━一✩─────.•*:｡✩
@@ -3126,13 +2166,12 @@ if DN[3] == true then WallShot()end
 if DN[4] == true then MagicBullet()end
 if DN[5] == true then FixDamage()end
 if DN[6] == true then Aimbot()end
-if DN[7] == true then Aimlk()end
-if DN[8] == true then Aimlkk()end
-if DN[9] == true then KafadanVurma()end
-if DN[10] == true then SmallCroshair()end
-if DN[11] == true then AmvCall()end
-if DN[12] == true then KarCall()end
-if DN[13] == true then HOME()end
+if DN[7] == true then Aimtk()end
+if DN[8] == true then KafadanVurma()end
+if DN[9] == true then SmallCroshair()end
+if DN[10] == true then AmvCall()end
+if DN[11] == true then KarCall()end
+if DN[12] == true then HOME()end
 end
 PUBGMH = -1
 end
@@ -3206,15 +2245,45 @@ gg.toast(" Wallshot Aktif Edildi ")
 end 
 
 function MagicBullet()
-gg.setRanges(gg.REGION_CODE_APP)
 gg.clearResults()
-gg.searchNumber("495979008;-300938736;-481296384;318772964;-300938736:129", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("-300938736", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(45, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.processResume()
-gg.toast(" Magic Bullet aktif Edildi")
-  end 
+  gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+  gg.searchNumber("0.10000000149;64.50088500977", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(50)
+  gg.editAll("8", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-460", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-560", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("250", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+  gg.searchNumber("-298284466;-1.304566e23F", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-298284466", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(99)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+  gg.searchNumber("-1,883,348,481,058,764,210", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(99)
+  gg.editAll("-1,883,348,485,055,444,540", gg.TYPE_QWORD)
+  gg.clearResults()
+  gg.toast("Mᴀɢɪᴄ ʙᴜʟʟᴇᴛ ᴀᴋᴛɪғ ᴇᴅɪʟᴅɪ")
+end
   
 function FixDamage()
   gg.clearResults()
@@ -3272,36 +2341,78 @@ end
 function Aimbot()
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("-2.84887926e28;-3.74440972e28;-2.78601725e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("-2.84887926e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("7EC", gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(69)
+gg.searchNumber("2015175168", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)
 gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("-5.48278082e27;-2.80148914e28;-1.98227756e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("-5.48278082e27", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("7F0", gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(69)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("0.0001;-2.02910209e20;-2.80439056e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("5F0", gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(69)
-gg.editAll("500", gg.TYPE_FLOAT)
-gg.clearResults()
-    gg.toast("𝘼𝙞𝙢𝙗𝙤𝙩 𝘼𝙘𝙩𝙞𝙫𝙖𝙩𝙚𝙙")
+gg.toast("AIMBOT 50M AÇIK")
 end
 
-  function Aimlk()
+
+function Aimtk()
+gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("28552639057982305", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+  gg.getResults(4)
+  gg.editAll("28552639057989989", gg.TYPE_QWORD)
+  gg.clearResults()
+  gg.toast("No Grass")
+  gg.clearResults()
+  end
+
+function KafadanVurma()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("180", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("İŞLENİYOR")
+gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("180", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-460", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.clearResults()
+gg.toast("İŞLENİYOR")
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("360;0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,324,366,404", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,324,366,404", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("100", gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("10;45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(200)
+gg.editAll("800", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
 gg.editAll("-460", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
@@ -3311,48 +2422,83 @@ gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
-gg.editAll("250", gg.TYPE_FLOAT)
+gg.editAll("700", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Aimlock Aktif ✅")
-end 
-
-function Aimlkk()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("23", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("699", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('𝘼𝙇𝙋𝙃𝘼 𝙃𝘼𝘾𝙆 𝙏𝙍')
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("-2.83335944e28;-5.84545857e27;-1.25150539e23", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("-2.83335944e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("134", gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(69)
-gg.editAll("-2.83335992e28", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("180", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("𝙄̇𝙇𝙀𝙍𝙄̇ 𝙕𝙄𝙋𝙇𝘼 𝘼𝙆𝙏𝙄̇𝙁")
-end
-
-function KafadanVurma()
+gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.clearResults()
+gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("-88.66608428955;26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
-gg.editAll("-466", gg.TYPE_FLOAT)
+gg.editAll("180", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('KATIL @AlphaHackTR')
-gg.searchNumber("-88.73961639404;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-460", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.clearResults()
+gg.toast("AZ KALDI")
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("360;0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,324,366,404", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,324,366,404", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("100", gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("10;45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(200)
+gg.editAll("800", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("-460", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
-gg.editAll("-568", gg.TYPE_FLOAT)
+gg.editAll("-560", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('Lütfen Bekleyiniz')
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
-gg.editAll("280", gg.TYPE_FLOAT)
+gg.editAll("700", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('İşlem tamam')
-gg.toast("[🙇]𝙃𝙚𝙖𝙙𝙨𝙝𝙤𝙩💯 𝘼𝙠𝙩𝙞𝙛")
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("23", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("699", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('☾︎✰')
+gg.toast("𝙰𝙺𝚃𝙸̇𝙵 𝙴𝙳𝙸̇𝙻𝙳𝙸̇")
 end
   
   function SmallCroshair()
@@ -3395,10 +2541,10 @@ end
 
 function RankPush()
 PN = gg.multiChoice({
- "╠══➣ [📡] Anten\nᵒʸᵘⁿ",
- "╠══➣ [🛑] Kafadan Vurma",
- "╠══➣ [🔥] Less Recoil\nˡᵒᵇⁱ",
- "╠══➣ [🎥] İpad Mod\nᵒʸᵘⁿ",
+ "╠═➣ [📡] Anten\nᵒʸᵘⁿ",
+ "╠═➣ [🛑] Kafadan Vurma",
+ "╠═➣ [🔥] Less Recoil\nˡᵒᵇⁱ",
+ "╠═➣ [🎥] İpad Mod\nᵒʸᵘⁿ",
 "Ⓖ︎Ⓔ︎Ⓡ︎Ⓘ︎",
 },nil,[[
 ✩｡:*•.─────▄︻̷̿┻̿═━一✩─────.•*:｡✩
@@ -3643,7 +2789,7 @@ YN = gg.multiChoice({
     "Ⓖ︎Ⓔ︎Ⓡ︎Ⓘ︎",
 },nil,[[
 ✩｡:*•.─────▄︻̷̿┻̿═━一✩─────.•*:｡✩
-𝗔𝗹𝗽𝗵𝗮𝗛𝗮𝗰𝗸𝗧𝗥 - @𝗺𝘂𝗰𝗼𝘁𝗼𝗼 - @𝗮𝗹𝗽𝗵𝗮_𝗮𝘁𝗮     
+𝗔𝗹??𝗵𝗮𝗛𝗮𝗰𝗸𝗧𝗥 - @𝗺𝘂𝗰𝗼𝘁𝗼𝗼 - @𝗮𝗹𝗽𝗵𝗮_𝗮𝘁𝗮     
 ✩｡:*•.─────▄︻̷̿┻̿═━一✩─────.•*:｡✩
 ]])
 if YN == nil then 
