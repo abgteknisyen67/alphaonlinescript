@@ -1,2 +1,0 @@
-alpha = load(gg.makeRequest('https://raw.githubusercontent.com/abgteknisyen67/alphaonlinescript/main/script1').content)
-pcall(alpha)

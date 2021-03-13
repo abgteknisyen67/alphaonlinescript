@@ -1,0 +1,22 @@
+[
+    {
+        "kodlar": {
+            "test": {
+                "isim": "test",
+                "id": "AulYZcDACV",
+                "desc": "ready.js İçin Hazır Kod",
+                "modules": [
+                    "chalk",
+                    " discord.js",
+                    " moment"
+                ],
+                "icon": "https://cdn.discordapp.com/avatars/733757903139504148/ba42fb474a40db9617898542fab80f5b.png",
+                "main_code": "Test",
+                "komutlar_code": "Twst",
+                "kod_rank": "topluluk",
+                "k_adi": "Ata Raio - JS",
+                "date": "3/5/2021"
+            }
+        }
+    }
+]

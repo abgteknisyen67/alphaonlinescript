@@ -1,0 +1,63 @@
+[
+    {
+        "kodlar": {
+            "Ultra Anti-Raid": {
+                "isim": "Ultra Anti-Raid",
+                "id": "gb6Yd8PybM",
+                "desc": "Anti-Raid kodudur yani SelfBot engel komutu",
+                "modules": [
+                    "discod.js",
+                    " quick.db"
+                ],
+                "icon": "https://cdn.discordapp.com/avatars/733757903139504148/18d098e0586402e99561d833a727ab07.png",
+                "main_code": "client.on(\"guildMemberAdd\", async member => {\r\nlet kanal = await db.fetch(`antiraidK_${member.guild.id}`)== \"anti-raid-aç\"\r\n  if (!kanal) return;  \r\n  var cod = member.guild.owner\r\n  if (member.user.bot === true) {\r\n     if (db.fetch(`botizin_${member.guild.id}.${member.id}`) == \"aktif\") {\r\n    let are = new Discord.MessageEmbed()\r\n      .setColor(\"RANDOM\")\r\n      .setThumbnail(member.user.avatarURL())\r\n      .setDescription(`**${member.user.tag}** (${member.id}) adlı bota bir yetkili verdi eğer kaldırmak istiyorsanız **${prefix}bot-izni kaldır botun_id**.`);\r\n    cod.send(are);\r\n     } else {\r\n       let izinverilmemişbot = new Discord.MessageEmbed()\r\n      .setColor(\"RANDOM\")\r\n      .setThumbnail(member.user.avatarURL())\r\n      .setDescription(\"**\" + member.user.tag +\"**\" + \" (\" + member.id+ \") \" + \"adlı bot sunucuya eklendi ve banladım eğer izin vermek istiyorsanız **\" + prefix + \"bot-izni ver botun_id**\")\r\n       member.members.ban();// Eğer sunucudan atmak istiyorsanız ban kısmını kick yapın\r\n       cod.send(izinverilmemişbot)\r\n}\r\n  }\r\n});\r\nmaine",
+                "komutlar_code": "const Discord = require(\"discord.js\");\r\nconst db = require(\"quick.db\");\r\nexports.run = (client, message, args) => {\r\n  if (db.has(`antiraidK_${message.guild.id}`) === false) {\r\n    return message.channel.send(\r\n      \"Anti-raid açılmamış. Açmak için **??anti-raid aç**\"\r\n    );\r\n  }\r\n  if (!args[1]) return message.reply(\"Lütfen bir bot id si girin\");\r\n\r\n  if (isNaN(args[1])) {\r\n    return message.reply(\"Sadece ID\");\r\n  }\r\n  if (args[0] == \"ver\") {\r\n    client.users.cache.get(args[0]);\r\n    db.set(`botizin_${message.guild.id}.${args[1]}`, \"aktif\");\r\n    message.reply(args[1] + \"ID li bota izin verildi\");\r\n  }\r\n  if (args[0] == \"kaldır\") {\r\n    db.delete(`botizin_${message.guild.id}.${args[1]}`, \"aktif\");\r\n    message.reply(args[1] + \" ID li botun izni kaldırıldı\");\r\n  }\r\n};\r\nexports.conf = {\r\n  enabled: true,\r\n  guildOnly: true,\r\n  aliases: [],\r\n  permLevel: 0\r\n};\r\nexports.help = {\r\n  name: \"bot-izni\"\r\n};",
+                "kod_rank": "normal",
+                "k_adi": "Ata Raio - JS",
+                "date": "3/6/2021"
+            },
+            "Ban": {
+                "isim": "Ban",
+                "id": "XlTmVpUMOi",
+                "desc": "V12 Ban sistemi",
+                "modules": [
+                    "discod.js"
+                ],
+                "icon": "https://cdn.discordapp.com/avatars/733757903139504148/18d098e0586402e99561d833a727ab07.png",
+                "main_code": "Main Yok",
+                "komutlar_code": "const Discord = require('discord.js');\r\n\r\n\r\nexports.run = async(client, message, args) => {\r\n  if (!message.guild.me.permissions.has(\"BAN_MEMBERS\")) return message.reply('Kullanıcıyı Banlayamıyorum Çünkü `Üyeleri Yasakla` Yetkim Yok.');\r\n  if (!message.member.hasPermission(\"BAN_MEMBERS\")) return message.reply(\":no_entry: Bu komutu kullanabilmek için `Üyeleri Yasakla` yetkisine sahip olmanız gerek.\");\r\n  var guild = message.guild;\r\n  var banlayan = message.author.tag;\r\n  let banxx = await message.guild.fetchBans();\r\n  \r\n  var kisi = message.mentions.users.first() || client.users.resolve(args[0]) || client.users.cache.find(u => u.username === args[0]) || client.users.cache.get(args[0]);\r\n  if(!kisi) return message.reply(\"Banlayacağım Kişiyi Belirtmen Gerekiyor `ID / @kullanici`\")\r\nlet sebeb = args.slice(1).join(' ') || 'Belirtilmemiş'\r\n\r\n\r\n    if(message.author == kisi) return message.reply(\"Kendini Yasaklayamazsın!\")\r\n    if (banxx.get(kisi.id)) return message.reply(\":x: Kişi Zaten Yasaklanmış!\")\r\n\r\n var now = new Date()\r\n if (!sebeb) {\r\n         try {\r\n          kisi.send(`${kisi} **${guild}** adlı sunucudan banlandınız. sebeb: \\`${sebeb}\\``)\r\n          message.channel.send(`**${kisi} Yasaklandı**`)\r\n          guild.members.ban(kisi, { reason: sebeb/*, days: gun*/});\r\n        } catch (error) {\r\n          message.reply(\"Bir hata oluşdu rolüme bakmaya ne dersin\")\r\n          console.log(error)\r\n        }\r\n } else {\r\n try {\r\n   kisi.send(`${kisi} **${guild}** adlı sunucudan banlandınız. \\nNedeni: **${sebeb}**`)\r\n   message.channel.send(`**${kisi} Yasaklandı. \\nNedeni:** \\`${sebeb}\\``)\r\n   guild.members.ban(kisi, { reason: sebeb/*, days: gun*/});\r\n } catch (error) {\r\n   message.reply(\"Bir hata oluşdu rolüme bakmaya ne dersin\")\r\n   console.log(error)\r\n }\r\n\r\n }\r\n};\r\n\r\n\r\nexports.conf = {\r\n  aliases: [],\r\n  permLevel: 0\r\n};\r\n\r\nexports.help = {\r\n  name: 'ban',\r\n  description: 'ban atar !',\r\n  usage: 'ban'\r\n};\r\n",
+                "kod_rank": "normal",
+                "k_adi": "Ata Raio - JS",
+                "date": "3/6/2021"
+            },
+            "Unban": {
+                "isim": "Unban",
+                "id": "OvPaQE2Xsl",
+                "desc": "V12 Unban Sistemi",
+                "modules": [
+                    "discord.js"
+                ],
+                "icon": "https://cdn.discordapp.com/avatars/733757903139504148/18d098e0586402e99561d833a727ab07.png",
+                "main_code": "Main Yok",
+                "komutlar_code": "const Discord = require('discord.js');\r\n\r\nexports.run = async(client, message, args) => {\r\n var guild = message.guild;\r\n var banlayan = message.author.tag;\r\n var kisi = message.mentions.users.first() || client.users.resolve(args[0]) || client.users.cache.find(u => u.username === args[0]) || client.users.cache.get(args[0]);\r\n if(!kisi) return message.reply(\"Yasağini Kaldırcam Uyenin `ID` BElirtmen Gerekiyor\")\r\n //var gun = args.slice(1).join(' ') ? `${args.slice(1).join(' ')}` :\"\";\r\n var neden = args.slice(1).join(' ') \r\n let banxx = await message.guild.fetchBans();\r\n\r\nif (!banxx.get(kisi.id)) return message.reply(\":x: Kişi Yasaklanmamış\")\r\n\r\nif(neden) {\r\n  try {\r\n  await message.channel.send(`${kisi.tag} adlı kullanıcının banı açıldı`)\r\n  await guild.members.unban(kisi.id, neden);\r\n} catch (error) {\r\n  message.reply(\"Bir Sorun Oldu Lütfen Botun Geliştiricisi veya Yapımcısıyla İletişime Geçiniz!\")\r\n  console.log(error)\r\n}\r\n} else {\r\n  try {\r\n    await message.channel.send(`${kisi.tag} adlı kullanıcının banı açıldı.`)\r\n    await guild.members.unban(kisi.id, neden);\r\n  } catch (error) {\r\n    message.reply(\"Bir Sorun Oldu Lütfen Botun Geliştiricisi veya Yapımcısıyla İletişime Geçiniz!\")\r\n    console.log(error)\r\n  }\r\n\r\n}\r\n\r\n\r\n\r\n\r\n};\r\n\r\n\r\nexports.conf = {\r\n  aliases: [],\r\n  permLevel: 0\r\n};\r\n\r\nexports.help = {\r\n  name: 'unban',\r\n  description: 'Botun Pingini Gösterir !',\r\n  usage: 'unban'\r\n};\r\n",
+                "kod_rank": "normal",
+                "k_adi": "Ata Raio - JS",
+                "date": "3/6/2021"
+            },
+            "Ban-Say": {
+                "isim": "Ban-Say",
+                "id": "vIb3PTUwaM",
+                "desc": "V12 Ban-say sistemi",
+                "modules": [
+                    "discord.js"
+                ],
+                "icon": "https://cdn.discordapp.com/avatars/733757903139504148/18d098e0586402e99561d833a727ab07.png",
+                "main_code": "Main Yok",
+                "komutlar_code": "const Discord = require(\"discord.js\");\r\n\r\nexports.run = (client, message, args) => {\r\n  let guild = message.guild;\r\n\r\n  guild\r\n    .fetchBans()\r\n    .then(modsal =>\r\n      message.channel.send(\r\n        Sunucunuzda **${modsal.size}** Banlanmış Üye Bulunmaktadır.\r\n      )\r\n    )\r\n    .catch(console.error);\r\n};\r\n\r\nexports.conf = {\r\n  enabled: true,\r\n  runIn: [\"bansay\"],\r\n  aliases: [],\r\n  permLevel: 0\r\n};\r\n\r\nexports.help = {\r\n  name: \"bansay\",\r\n  description: \"Sunucudan banlanan kişilerin sayısını gösterir\",\r\n  usage: \"bansay\"\r\n};\r\n",
+                "kod_rank": "normal",
+                "k_adi": "Ata Raio - JS",
+                "date": "3/6/2021"
+            }
+        }
+    }
+]
